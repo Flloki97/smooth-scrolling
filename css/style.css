@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Slussen;
+    src: url(../fonts/Slussen-Compressed-Black-TRIAL.otf) format("otf");
+    font-display: swap;
+    font-weight: 900;
+    font-stretch: compressed;
+}
+
+
+@font-face {
+    font-family: Slussen;
+    src: url(../fonts/Slussen-Expanded-Black-TRIAL.otf) format("otf");
+    font-display: swap;
+    font-weight: 900;
+    font-stretch: expanded;
+}
+
+
+@font-face {
+    font-family: Slussen;
+    src: url(../fonts/Slussen-Regular-TRIAL.otf) format("otf");
+    font-display: swap;
+    font-weight: 400;
+}
+
+
+@font-face {
+    font-family: Slussen;
+    src: url(../fonts/Slussen-Bold-TRIAL.otf) format("otf");
+    font-display: swap;
+    font-weight: 700;
+}
