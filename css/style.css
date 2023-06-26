@@ -30,3 +30,8 @@
     font-display: swap;
     font-weight: 700;
 }
+
+html {
+    scroll-behavior: initial;
+    overflow: hidden;
+}
