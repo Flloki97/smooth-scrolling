@@ -1,34 +1,35 @@
 @font-face {
-    font-family: Slussen4;
-    src: url(../fonts/Slussen-Compressed-Black-TRIAL.otf) format("otf");
-    font-display: swap;
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Black.ttf);
     font-weight: 900;
-    font-stretch: compressed;
 }
 
 
 @font-face {
-    font-family: Slussen1;
-    src: url(../fonts/Slussen-Expanded-Black-TRIAL.otf) format("otf");
-    font-display: swap;
-    font-weight: 900;
-    font-stretch: expanded;
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Bold.ttf);
+    font-weight: 800;
 }
 
 
 @font-face {
-    font-family: Slussen2;
-    src: url(../fonts/Slussen-Regular-TRIAL.otf) format("otf");
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Medium.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
     font-display: swap;
     font-weight: 400;
 }
 
 
 @font-face {
-    font-family: Slussen3;
-    src: url(../fonts/Slussen-Bold-TRIAL.otf) format("otf");
-    font-display: swap;
-    font-weight: 700;
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Light.ttf);
+    font-weight: 200;
 }
 
 html {
@@ -43,9 +44,18 @@ body {
 }
 
 body {
-    font-family: Slussen4 !important;
+    font-family: Roboto !important;
     font-size: 16px;
     font-weight: 400;
     background: #000;
     color: #fff;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 85%;
+    border-left: 3px solid #ff98a2;
+    padding: 25px;
+    margin: 0;
 }
