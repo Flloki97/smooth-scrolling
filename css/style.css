@@ -94,10 +94,7 @@ section {
     width: 100vw;
 }
 
-.vertical__
-
-
-content {
+.vertical__content {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -109,4 +106,8 @@ content {
 
 .vertical_content .col_right {
     width: 40%;
+}
+
+.vertical__item:not(:last-child) {
+    margin-bottom: 240px;
 }
