@@ -22,5 +22,5 @@ const scroll_1 = ScrollTrigger.create({
     trigger: section_1,
     start: 'top top',
     end: 'bottom center',
-    scrub: true
+
 });
