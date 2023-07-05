@@ -117,7 +117,7 @@ section {
     cursor: url(cursor.cur), auto;
   }
    */
-  @keyframes cursor-animation {
+  /* @keyframes cursor-animation {
     0% {
       color: rgb(203, 35, 35);
       cursor: crosshair;
@@ -142,4 +142,4 @@ section {
   
   body {
     animation: cursor-animation 1s infinite;
-  }
+  } */
