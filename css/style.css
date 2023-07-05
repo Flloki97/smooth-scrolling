@@ -113,10 +113,10 @@ section {
 }
 
 
-* {
+/* * {
     cursor: url(cursor.cur), auto;
   }
-  
+   */
   @keyframes cursor-animation {
     0% {
       color: rgb(203, 35, 35);
