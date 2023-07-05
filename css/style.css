@@ -111,3 +111,35 @@ section {
 .vertical__item:not(:last-child) {
     margin-bottom: 240px;
 }
+
+/* 
+* {
+    cursor: url(cursor.cur), auto;
+  }
+  
+  @keyframes cursor-animation {
+    0% {
+      color: red;
+      cursor: crosshair;
+    }
+    25% {
+      color: green;
+      cursor: ibeam;
+    }
+    50% {
+      color: blue;
+      cursor: wait;
+    }
+    75% {
+      color: yellow;
+      cursor: hand;
+    }
+    100% {
+      color: purple;
+      cursor: arrow;
+    }
+  }
+  
+  body {
+    animation: cursor-animation 1s infinite;
+  } */
